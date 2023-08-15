@@ -1,5 +1,5 @@
 ---
-title: Multi-Class Classification Using MLP
+title: Multi-Class Classification Using Multilayer Perceptron
 layout: default
 nav_order: 2
 ---
@@ -15,7 +15,7 @@ Learn a MLP model based on the training set, and evaluate the performance on the
 
 ---
 ## Dataset
-[dataset link hosted later](https://www.example.com)
+[MLP dataset link](https://drive.google.com/file/d/1-sh4QPwrH5LhEkvOK_mEZ6TiG9ej3X_j/view?usp=sharing)
 
 ### Dataset Size
 The dataset has two files: train.csv and test.csv. They denote the pre-partitioned training set and testing set, respectively. The train.csv file has 60,000 lines, and the test.csv file has 10,000 lines. Each line represents one labeled data instance in these two files.
@@ -69,7 +69,7 @@ For our hyperparameters, we have our learning rate at 1e-4 and our momentum at 0
 We currently don’t have any different settings for testing and training aside from turning off gradient propagation when we use the testing data set.
 
 ## Evaluation Metrics
-We use the scikit-learn library’s classification_report() function to report F1, Accuracy, precision, and recall when using our test dataset.
+We use the scikit-learn library’s `classification_report()` function to report F1, Accuracy, precision, and recall when using our test dataset.
 
 ### Training Convergence Plot
 ![Image of a plot from tensorboard showing the training loss over multiple epochs](./assets/stage2/loss%20graph.png "Training loss in 1000 epochs")
@@ -168,8 +168,9 @@ The model architecture is:
 Comparison loss and accuracy graph on two model architectures, using 1000 epochs, learning rate of 1e-4, CrossEntropyLoss, and with random seed of 42.
 ![Training Loss comparision graph between the 5 linear layers and the 6 linear layers](./assets/stage2/comparision%20loss.png)
 ![Accuracy comparision graph between the 5 linear layers and the 6 linear layers](./assets/stage2/comparision%20acc.png)
-
-
 > Orange: the original model, with 5 fully connected layers
 >
 > Blue: 6 fully connected layers
+
+## Source Code
+GitHub repository page: [https://github.com/CyberExplosion/Deep-Learning-Projects/tree/P2](https://github.com/CyberExplosion/Deep-Learning-Projects/tree/P2)
