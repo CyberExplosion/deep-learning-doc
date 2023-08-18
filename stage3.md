@@ -20,16 +20,13 @@ Learned how to implement image classification with the three image types using t
 There are three datasets for this stage of the project: MNIST, ORL, and CIFAR, which are all image datasets.
 - MNIST (gray image)
 
-Training set size: 60,000, testing set size: 10,000, number of classes: 10. Each instance is a
-28x28 gray image, and will have one single class label denoted by an integer from {0, 1, …, 9}.
+Training set size: 60,000, testing set size: 10,000, number of classes: 10. Each instance is a 28x28 gray image, and will have one single class label denoted by an integer from {0, 1, …, 9}.
 - ORL (gray image)
 
-Training set size: 360, testing set size: 40, number of classes: 40. Each instance is a 112x92
-gray image, and will have one single class label denoted by an integer from {1, 2, …, 39, 40}.
+Training set size: 360, testing set size: 40, number of classes: 40. Each instance is a 112x92 gray image, and will have one single class label denoted by an integer from {1, 2, …, 39, 40}.
 - CIFAR (color image)
 
-Training set size: 50,000, testing set size: 10,000, number of classes: 10. Each instance is a
-32x32 color image, and will have one single label denoted by an integer from {0, 1, 2, …, 9}.
+Training set size: 50,000, testing set size: 10,000, number of classes: 10. Each instance is a 32x32 color image, and will have one single label denoted by an integer from {0, 1, 2, …, 9}.
 
 ### Dataset Organization
 These dataset are organized as with a dictionary data structure in Python as follows:
@@ -70,7 +67,7 @@ The dataset used in the project is shown to be a handwritten number image datase
 
 ### Detailed Experiment Setups
 {: .no_toc}
-Here are the print out details of each layers input, output, and more for each of our models
+Here are the print out details of each layers input, output, and more for each of our models.
 #### MNIST
 ```
 ===================================================================================
