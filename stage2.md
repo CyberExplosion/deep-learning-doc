@@ -1,7 +1,7 @@
 ---
 title: Multi-Class Classification Using Multilayer Perceptron
 layout: default
-nav_order: 2
+nav_order: 1
 ---
 # Multi-Class Classification Using MLP
 {: .no_toc}

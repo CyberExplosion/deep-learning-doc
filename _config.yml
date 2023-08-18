@@ -1,10 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Deep Learning Projects
+description: A collections of all deep learning experiments I took throughout the deep learning courses
 theme: just-the-docs
 
 url: https://cyberexplosion.github.io/deep-learning-doc
 
 # aux_links:
 #   Template Repository: https://github.com/just-the-docs/just-the-docs-template
-
-search.button: true

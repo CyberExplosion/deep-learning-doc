@@ -1,7 +1,7 @@
 ---
 title: Image Classification with Convolution Neural Network
 layout: default
-nav_order: 3
+nav_order: 2
 ---
 # Image Classification with Convolution Neural Network
 {: .no_toc}

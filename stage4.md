@@ -1,7 +1,7 @@
 ---
 title: Text Classification and Text Generation using Recurrent Neural Network
 layout: default
-nav_order: 4
+nav_order: 3
 ---
 # Text Classification and Text Generation using Recurrent Neural Network
 {: .no_toc}
@@ -16,7 +16,7 @@ Trained a RNN model, which can generate the whole piece of a sentence based on a
 {:toc}
 
 ## Dataset
-[link provide later](https://www.example.com)
+[Text Classification and Text Generation dataset](https://drive.google.com/drive/folders/1u7Goass-WixLkL7nCWYL7LeI6cfZd1S1?usp=sharing)
 
 This dataset contains movie reviews along with their associated binary
 sentiment polarity labels. It is intended to serve as a benchmark for
